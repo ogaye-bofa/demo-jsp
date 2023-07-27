@@ -5,7 +5,7 @@ gradle clean build
 java -jar build/libs/demo-jsp-0.0.1-SNAPSHOT.jar
 
 http://localhost:8080/demo-jsp/restcontroller/hello
- test a vanilla rest endpoint frist
+ test a vanilla rest endpoint first
 http://localhost:8080/demo-jsp/hello.jsp
   a jsp will come up
 http://localhost:8080/demo-jsp/controller/view
@@ -21,7 +21,7 @@ http://localhost:8080/demo-jsp/hello.jsp
 http://localhost:8080/demo-jsp/controller/view
  jsp not found, error
 
-Known issue around jsp with enbedded tomcat archived as jar file. Issue with Jasper, Tomcat, and Docker?
+Known issue around jsp with embedded tomcat and archived as jar file. Issue with Jasper, Tomcat, and Docker?
 No problem when using a war archive
 Ref:
 https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#web.servlet.embedded-container.jsp-limitations
