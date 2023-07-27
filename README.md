@@ -14,7 +14,8 @@ http://localhost:8080/demo-jsp/controller/view
   a jsp will come up
 
 ## Local testing on container: docker
-docker build -t demo-jsp .   
+used vanilla and classic containerization:
+  docker build -t demo-jsp .   
 docker run -p8080:8080 --name demo-jsp  demo-jsp
 http://localhost:8080/demo-jsp/restcontroller/hello
 test first the vanilla rest endpoint on docker, still working
