@@ -1,5 +1,7 @@
 # demo-jsp
 
+Tried multiple packing on different hello.jsp (same name different messages)
+
 ## Local testing
 gradle clean build
 java -jar build/libs/demo-jsp-0.0.1-SNAPSHOT.jar
@@ -11,7 +13,7 @@ http://localhost:8080/demo-jsp/hello.jsp
 http://localhost:8080/demo-jsp/controller/view
   a jsp will come up
 
-## Local testing - docker
+## Local testing on container: docker
 docker build -t demo-jsp .   
 docker run -p8080:8080 --name demo-jsp  demo-jsp
 http://localhost:8080/demo-jsp/restcontroller/hello
